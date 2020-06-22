@@ -1,3 +1,6 @@
 class Formatter {
-  //add static methods here
+  static  capitalize(str){
+     returns str.replace(/^\w/, (c) => c.toUpperCase());
+
+  }
 }
